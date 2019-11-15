@@ -34,3 +34,20 @@ Docuseries_subheading {
     color: red;
     font-size: 70px;
 }
+
+div {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+button:hover {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: double;
+    border-radius: 50%;
+}
