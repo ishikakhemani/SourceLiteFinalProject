@@ -14,18 +14,13 @@ function display(){
     imageelement.style.visibility = "visible"
     console.log(imageelement)
 }
-function remove(){
-    let imageelement = document.getElementById("happy");
-    imageelement.style.visibility = "hidden"
-    console.log(imageelement);
-}
+
+
 function displayNo(){
-    let imageelement = document.getElementById("sad");
+    let imageelement = document.getElementById("oh sorry");
     imageelement.style.visibility = "visible"
     console.log(imageelement);
 }
-function removeNo(){
-    let imageelement = document.getElementById("sad");
-    imageelement.style.visibility = "hidden"
-    console.log(imageelement);
+function myFunction(){
+    document.getElementById("myCheck").click();
 }
