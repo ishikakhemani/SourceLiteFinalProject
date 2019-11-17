@@ -1,26 +1,26 @@
 var request = new XMLHttpRequest();
 
 function fireApi(){
-    request.open('GET', "https://api.themoviedb.org/3/movie/550?api_key=0ff32a4d85533dd93a5b1224fe15613e")
+    let num= Math.floor(Math.random()* Math.floor(15))
+    request.open("GET", "https://akabab.github.io/superhero-api/api/id/" + num + ".json"
+    )    
     request.onload = function(){
         let result = request.response; //JSON string
-        let resultObj = JSON.parse(result);//JSON object
+        let resultObj = JSON.parse(result);//JSON object 
+         console.log(resultObj.images.lg);
+        document.getElementById("superhero").src = resultObj.images.lg
+      
     }
     ,request.send();
+    
 }
 
 function display(){
-    let imageelement = document.getElementById("happy") 
-    imageelement.style.visibility = "visible"
-    console.log(imageelement)
+    document.getElementById("happy").style.display="block";
 }
 
 
 function displayNo(){
-    let imageelement = document.getElementById("oh sorry");
-    imageelement.style.visibility = "visible"
-    console.log(imageelement);
+   document.getElementById("oh sorry").style.display="block"
 }
-function myFunction(){
-    document.getElementById("myCheck").click();
-}
+
