@@ -1,0 +1,53 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+
+title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 2px rgb(238, 38, 38);
+}
+
+TV_subheading {
+    font-family: Blippo, fantasy;
+    background-color: black;
+    color: red;
+    font-size: 70px;
+}
+
+Movie_subheading {
+    font-family: Blippo, fantasy;
+    background-color: black;
+    color: red;
+    font-size: 70px;
+}
+
+Docuseries_subheading {
+    font-family: Blippo, fantasy;
+    background-color: black;
+    color: red;
+    font-size: 70px;
+}
+
+div {
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+button:hover {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: double;
+    border-radius: 50%;
+}
